@@ -502,3 +502,35 @@ img {
 .social-svg-li:focus {
     background-color: #31d0aa;
 }
+.foter-div-email {
+    width: 453px;
+    height: 80px;
+    margin-left: 80px;
+}
+.foter-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: #2e2f42;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.foter-button {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    display: block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.foter-email {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
