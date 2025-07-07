@@ -597,23 +597,33 @@
               <label class="user-label" for="usertext">Comment</label>
               <textarea
                 class="div-textarea"
+                id="usertext"
                 name="description"
                 placeholder="Text input"
               ></textarea>
             </div>
           </div>
-        <div class="div-checkbox">
-          <input type="checkbox" name="checkbox" class="checkbox input-visual" id="checkbox" value="true"/>
-          <label class="checkbox-label" for="checkbox">
-            <span class="checkbox-label-span">
-              <svg class="checkbox-svg" width="10" height="8">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </span>I accept the terms and conditions of the
-            <a class="checkbox-label-skr" href="https://policies.google.com/">Privacy Policy</a>
+          <div class="div-checkbox">
+            <input
+              type="checkbox"
+              name="checkbox"
+              class="checkbox input-visual"
+              id="checkbox"
+              value="true"
+            />
+            <label class="checkbox-label" for="checkbox">
+              <span class="checkbox-label-span">
+                <svg class="checkbox-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="checkbox-label-skr" href="https://policies.google.com/"
+                >Privacy Policy</a
+              >
             </label>
+          </div>
+          <button class="checkbox-button" type="submit">Send</button>
         </div>
-        <button class="checkbox-button" type="submit">Send</button>
       </div>
     </div>
   </body>
