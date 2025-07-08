@@ -522,13 +522,15 @@ img {
     min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     display: flex;
     border: none;
     cursor: pointer;
     color: #fff;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -545,6 +547,7 @@ img {
 }
 .foter-input-svg {
     fill: #fff;
+    margin-left: 16px;
 }
 .foter-input::placeholder {
     font-weight: 400;
@@ -606,15 +609,17 @@ img {
 .modal-but:hover {
     background-color: #404bbf;
     fill: #fff;
+    border: none;
 }
 .modal-but:focus {
     background-color: #404bbf;
     fill: #fff;
+    border: none;
 }
 .modal-but-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-text {
+.modal-div-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -623,7 +628,7 @@ img {
     color: #2e2f42;
     margin-bottom: 16px;
 }
-.modal-div-div {
+.modal-div {
     display: flex;
     flex-direction: column;
     width: 360px;
