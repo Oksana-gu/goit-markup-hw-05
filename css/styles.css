@@ -508,11 +508,14 @@ img {
     margin-left: 80px;
 }
 .foter-input {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background-color: #2e2f42;
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -523,6 +526,7 @@ img {
     height: 40px;
     background-color: #4d5ae5;
     font-weight: 500;
+    letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -554,7 +558,7 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 .backdrop {
     position: fixed;
@@ -619,7 +623,7 @@ img {
 .modal-but-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-div-text {
+.modal-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
