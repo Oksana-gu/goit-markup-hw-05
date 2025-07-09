@@ -672,9 +672,12 @@ img {
     border-color: #4d5ae5;
     fill: #4d5ae5;
 }
-.modal-input:focus,
-.modal-div-icon:focus {
+.modal-input:focus {
     border-color: #4d5ae5;
+    fill: #4d5ae5;
+}
+.modal-input:focus + .modal-div-icon,
+.modal-input:focus-visible + .modal-div-icon {
     fill: #4d5ae5;
 }
 
