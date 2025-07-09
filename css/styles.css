@@ -672,8 +672,8 @@ img {
     border-color: #4d5ae5;
     fill: #4d5ae5;
 }
-.user-div:focus .modal-input,
-.user-div:focus .modal-div-icon {
+.modal-input:focus,
+.modal-div-icon:focus {
     border-color: #4d5ae5;
     fill: #4d5ae5;
 }
